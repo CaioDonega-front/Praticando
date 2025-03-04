@@ -5,7 +5,7 @@ function exibirTextoNaTela(tag, texto){
     campo.innerHTML = texto;
 }
 exibirTextoNaTela ('h1','Hora do desafio');
-exibirTextoNaTela ('p','Escolha um número entre 1 e 300');
+exibirTextoNaTela ('p','Escolha um número entre 1 e 20');
 
 function contagemChute() {
     let chute = document.querySelector('input').value;
@@ -25,5 +25,5 @@ function somabutton(){
     alert(`a soma dos numero digitados é ${soma}`);
 }
 function gerarNumeroAleatorio() {
-    return parseInt(Math.random() * 300 + 1);
+    return parseInt(Math.random() * 20 + 1);
 }
